@@ -16,3 +16,12 @@ samp,
 kbd {
     font-family: var(--codefont);
 }
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12.5%;
+    width: 80%;
+    font-size: 200%;
+    text-align: center;
+}
