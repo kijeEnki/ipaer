@@ -1,0 +1,18 @@
+:root {
+    --ipafont: "Charis SIL", "Doulos SIL", "FreeSerif", "Times New Roman", serif;
+    --codefont:
+        /*"Iosevka",*/
+        "Noto Mono", "Noto Sans Mono", "DejaVu Sans Mono", "Menlo", "Consolas", "FreeMono", "Courier New", monospace;
+}
+
+.ipa {
+    font-family: var(--ipafont);
+}
+
+.code,
+code,
+pre,
+samp,
+kbd {
+    font-family: var(--codefont);
+}
