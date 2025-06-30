@@ -15,6 +15,7 @@ pre,
 samp,
 kbd {
     font-family: var(--codefont);
+    white-space: pre;
 }
 
 body {
@@ -24,4 +25,10 @@ body {
     width: 80%;
     font-size: 200%;
     text-align: center;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 1em;
+    max-height: 8em;
 }
